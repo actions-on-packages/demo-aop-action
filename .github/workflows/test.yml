@@ -13,4 +13,6 @@ jobs:
         
       - name: demo-aop-action
         uses: actions-on-packages/demo-aop-action@1.0.2
+        with: 
+          milliseconds: 1000
 
