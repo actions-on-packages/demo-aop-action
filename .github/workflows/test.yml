@@ -10,4 +10,7 @@ jobs:
 
       - name: My Awesome
         uses: actions-on-packages/my-awesome@1.0.5
+        
+      - name: demo-aop-action
+        uses: actions-on-packages/demo-aop-action@1.0.2
 
