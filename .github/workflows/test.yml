@@ -8,6 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - uses: actions-on-packages/checkout@3.1.0
+      
       - name: My Awesome
         uses: actions-on-packages/my-awesome@1.0.5
         
