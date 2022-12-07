@@ -8,11 +8,7 @@ jobs:
     steps:
       - uses: actions-on-packages/checkout@2.3.5
       
-      - name: My Awesome
-        uses: actions-on-packages/my-awesome@1.0.5
-        
-      - name: demo-aop-action
-        uses: actions-on-packages/demo-aop-action@1.0.5
-        with: 
-          milliseconds: 1000
+      - uses: actions-on-packages/checkout@v2
+      
+      - uses: actions-on-packages/checkout@v3
 
