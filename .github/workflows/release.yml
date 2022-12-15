@@ -1,8 +1,8 @@
 name: 'publish-action'
 on: # rebuild any PRs and main branch changes
   workflow_dispatch:
-  # release:
-  #  types: [created]
+  release:
+   types: [created]
 
 jobs:
   package-and-publish: # make sure the action works on a clean machine without building
